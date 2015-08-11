@@ -80,7 +80,8 @@ var addCredentialsEvent = new CustomEvent("add_credentials_to_passman", {
   detail: {
     host: 'http://secure.example.com',
     username: 'bob',
-    password: 'P45sword'
+    password: 'P45sword',
+    realm: 'realm'
   }
 });
 window.dispatchEvent(addCredentialsEvent);
